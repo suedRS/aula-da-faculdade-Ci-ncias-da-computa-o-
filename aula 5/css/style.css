@@ -1,0 +1,22 @@
+section{
+    display: -webikit-flex;
+    display: flex;
+    background-color: rgb(146, 146, 150);
+    height: 100vh;
+}
+
+nav {
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background: #ccc;
+    padding: 20px;
+  }
+
+  article {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
